@@ -1,0 +1,41 @@
+html,body{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+div{
+  box-sizing: border-box;
+}
+/* flex 布局 两端对齐 */
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+/* flex 布局 自动换行 */
+.flex-one{
+  display: flex;
+  flex-wrap: wrap;
+}
+/* flex 布局 自动换行  垂直居中*/
+.flex-two{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* flex 布局 自动换行  垂直排列*/
+
+.flex-three{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.flex-thor{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
